@@ -1,0 +1,161 @@
+/*ヘッダー*/
+.header {
+    background: fff;
+    text-align: center;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    border-bottom: solid 1px #E0DFDE;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #8B7969;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+/*content 全体*/
+.contact-form__content {
+    margin: 50 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+/*content ヘッダー*/
+.contact-form__heading {
+    margin-bottom: 50px;
+    text-align: center;
+    color: #8B7969;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+/*content フォーム　全体*/
+.form {
+    margin: 0 auto;
+    width: 70%;
+    
+}
+
+/*content ラベルと※と欄のグループ*/
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+/*content ラベル*/
+.form__label--item {
+    color: #8B7969;
+    font-size: 20px;
+
+}
+
+/*content ※*/
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    
+    color: #FF9494;
+}
+
+/*いったん無視　エラーのときの*/
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+/*content 欄*/
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: none;
+    background-color: #F4F4F4;
+    color: #BEB1A6;
+}
+
+/*content お名前欄*/
+.form__input--text-name input{
+    padding: 10px;
+    width: 290px;
+    height: 40px;
+    border: none;
+    background-color: #F4F4F4;
+    color: #BEB1A6;
+}
+
+/*content 電話番号欄*/
+.form__input--text-tel input{
+    
+    padding: 10px;
+    width: 190px;
+    height: 40px;
+    border: none;
+    background-color: #F4F4F4;
+    color:#BEB1A6;
+}
+
+/*content 性別の欄*/
+.form__input--radio{
+    color: #8B7969;
+    font-size: 20px;
+    text-align: left;
+}
+
+.form__input--radio input{
+    margin-left:50px ;
+}
+
+/*content お問い合わせ種類種類の欄*/
+.form__input--text-category input {
+    padding: 10px;
+    width: 330px;
+    height: 40px;
+    border: none;
+    background-color: #F4F4F4;
+    color: #BEB1A6;
+}
+
+/*多分動いてない*/
+.form__input--radio input{
+    text-align: left;
+}
+
+/*入力欄の高さ*/
+.form__input--text input {
+    height: 40px;
+}
+
+/*お問い合わせ入力欄の高さ*/
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+/*ボタン*/
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px 40px;
+    margin: 30px auto;
+    width: 160px;
+    height: 46px;
+    border: none;
+    
+    background: #82756A;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+}
